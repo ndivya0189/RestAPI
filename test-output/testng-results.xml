@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Delete details for program id[Ljava.lang.String;@b5cc23a]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-03-14T18:01:54 EDT" name="Default suite" finished-at="2022-03-14T18:01:57 EDT" duration-ms="2422">
+    <groups>
+    </groups>
+    <test started-at="2022-03-14T18:01:54 EDT" name="Default test" finished-at="2022-03-14T18:01:57 EDT" duration-ms="2422">
+      <class name="lmsApiTesting.lmsApi_delete">
+        <test-method signature="test_delete([Ljava.lang.String;)[pri:0, instance:lmsApiTesting.lmsApi_delete@383bfa16]" started-at="2022-03-14T18:01:55 EDT" name="test_delete" data-provider="deletedata" finished-at="2022-03-14T18:01:57 EDT" duration-ms="1769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@b5cc23a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Delete details for program id[Ljava.lang.String;@b5cc23a]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_delete -->
+      </class> <!-- lmsApiTesting.lmsApi_delete -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

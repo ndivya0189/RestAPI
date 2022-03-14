@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Job Location": {
+      "type": "string"
+    },
+    "Job Id": {
+      "type": "string"
+    },
+    "Job Company Name": {
+      "type": "string"
+    },
+    "Job Posted time": {
+      "type": "string"
+    },
+    "Job Description": {
+      "type": "string"
+    },
+    "Job Title": {
+      "type": "string"
+    },
+    "Job Type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "Job Location",
+    "Job Id",
+    "Job Company Name",
+    "Job Posted time",
+    "Job Description",
+    "Job Title",
+    "Job Type"
+  ]
+}
