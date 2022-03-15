@@ -37,7 +37,7 @@ public class jobsApi_get {
   		Response response= RestAssured.given().when().get(ApiConfig.baseurl+null).
         		  then().log().all().extract().response();
           int statuscode=response.getStatusCode();
-          Assert.assertEquals(statuscode, 200,"Response received successfully"); 
+          Assert.assertEquals(statuscode, 400,"Response received successfully"); 
        System.out.println("The response code is" +statuscode);
    
 	}
